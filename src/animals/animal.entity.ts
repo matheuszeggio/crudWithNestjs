@@ -16,5 +16,10 @@ export class Animal {
 
     @Column()
     weight: number;
+
+    @Column({
+        nullable: true
+    })
+    image: string;
 }
  
